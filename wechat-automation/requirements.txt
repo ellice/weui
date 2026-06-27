@@ -1,0 +1,7 @@
+# 桌面版微信自动化依赖（仅支持 Windows）
+# 安装命令： pip install -r requirements.txt
+
+pywinauto>=0.6.8        # 基于 UIAutomation 的 Windows 桌面 GUI 自动化
+pywin32>=305            # win32 剪贴板、文件路径(CF_HDROP) 等底层能力
+pyperclip>=1.8.2        # 纯文本剪贴板读写（跨平台封装）
+Pillow>=9.0.0           # 图片转 DIB 写入剪贴板（图片粘贴发送）
