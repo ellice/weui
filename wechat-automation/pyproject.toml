@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wechat-automation"
+version = "0.1.0"
+description = "桌面版微信自动化工具（Python + pywinauto）"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = [
+    "pywinauto>=0.6.8",
+    "pyperclip>=1.8.2",
+]
+
+[project.optional-dependencies]
+win = ["pywin32>=305"]
+
+[tool.setuptools.packages.find]
+include = ["wechat_automation*"]
