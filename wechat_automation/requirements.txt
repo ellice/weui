@@ -1,0 +1,8 @@
+# 桌面版微信自动化 —— Python 依赖
+# 注意：pywinauto 仅支持 Windows 平台
+
+pywinauto>=0.6.8       # 基于 UIAutomation / Win32 的桌面 UI 自动化核心库
+pyperclip>=1.8.2       # 纯文本剪贴板读写
+comtypes>=1.2.0        # pywinauto 的 UIA 后端依赖
+pywin32>=305           # Win32 API（剪贴板文件、窗口句柄等）
+Pillow>=9.0.0          # 图片处理（将本地图片写入剪贴板时使用）
