@@ -1,0 +1,5 @@
+# 桌面版微信自动化依赖（仅支持 Windows）
+pywinauto>=0.6.8
+pywin32>=306
+pyperclip>=1.8.2
+comtypes>=1.2.0
