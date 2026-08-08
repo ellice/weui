@@ -1,0 +1,5 @@
+# 微信桌面自动化依赖（仅 Windows 运行时需要 pywinauto）
+# 在非 Windows 平台（如 CI/Linux）仅安装 pyperclip 即可完成导入与纯逻辑单测。
+
+pywinauto>=0.6.8 ; sys_platform == "win32"
+pyperclip>=1.8.2
