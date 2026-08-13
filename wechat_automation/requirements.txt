@@ -1,0 +1,6 @@
+# 桌面版微信自动化依赖（仅支持 Windows）
+# pywinauto 依赖 comtypes / pywin32，用于 UI Automation 控件操作
+pywinauto>=0.6.8
+pywin32>=306
+comtypes>=1.2.0
+pyperclip>=1.8.2
