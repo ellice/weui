@@ -1,0 +1,7 @@
+# 桌面版微信自动化依赖
+# 仅支持 Windows 平台运行（微信 PC 客户端 + UIAutomation）
+
+pywinauto>=0.6.8
+pywin32>=306          # 剪贴板 / 窗口句柄操作
+comtypes>=1.2.0       # pywinauto UIA 后端依赖
+Pillow>=9.0.0         # 图片剪贴板处理（截图 / 本地图片发送）
