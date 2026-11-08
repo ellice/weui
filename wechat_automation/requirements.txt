@@ -1,0 +1,5 @@
+# 桌面版微信自动化依赖（仅 Windows 平台可实际运行）
+pywinauto>=0.6.8
+pywin32>=305
+pyperclip>=1.8.2
+Pillow>=9.0.0
